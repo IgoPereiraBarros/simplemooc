@@ -91,9 +91,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'simplemooc',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '1234',
     }
 }
 
@@ -142,14 +142,14 @@ MEDIA_URL = '/media/'
 #E-MAILS
 # E-MAILS_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'igorestacioceut@gmail.com'
+DEFAULT_FROM_EMAIL = 'suportestreamlit@gmail.com'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'igorestacioceut@gmail.com'
-EMAIL_HOST_PASSWORD = 'Pl@y1232010'
+EMAIL_HOST_USER = 'suportestreamlit@gmail.com'
+EMAIL_HOST_PASSWORD = 'streamlitds2020'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-CONTACT_EMAIL = 'igorestacioceut@gmail.com'
+CONTACT_EMAIL = 'suportestreamlit@gmail.com'
 
 # Auth
 LOGIN_URL = 'accounts:login'
